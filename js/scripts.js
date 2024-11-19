@@ -143,11 +143,42 @@ var course = {
     '2_stars_reviews': 20,
     '1_stars_reviews': 4
 }
+
+var average=(420/557)*100;
+console.log(average);
+
+var randomNumber = Math.round(75.40394973070018);
+console.log(randomNumber);
+
+var name = "75";
+name += "%";
+console.log(name);
+
+document.getElementById("reviews_5_stars").innerHTML=name;
+
+
 console.log(course.title);
 document.getElementById("course_title").innerHTML=course.title
 
 console.log(course['categories'][0]);
 document.getElementById("main_category").innerHTML=course.title
+
+console.log(course['categories'][0]);
+document.getElementById("main_category").innerHTML=course['categories'][0]
+
+
+var shoppingList = ["Milk", "Butter", "Juice", "Bread", "Beer", "Rice", "Potatoes", "Chocolate"];
+shoppingList.pop();
+shoppingList.shift();
+shoppingList.unshift("chocolate");
+console.log(shoppingList);
+
+var shoppingList = ["Milk", "Butter", "Juice", "Bread", "Beer", "Rice", "Potatoes", "Chocolate"];
+shoppingList.push("Cheese");
+shoppingList.push("Eggs");
+console.log(shoppingList);
+
+
 
 
 
